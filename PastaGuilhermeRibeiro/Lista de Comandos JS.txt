@@ -1,0 +1,58 @@
+-Lista de Comandos JavaScript-
+
+
+* let ou var nomeVariavel -> Declaração de uma variável
+
+* const nomeVariavel -> Declaração de uma variável constante
+
+* prompt(Conteúdo); -> Escrever algo no prompt
+
+* console.log(Conteúdo); -> Imprimir algo no console do navegador
+
+* document.write(Conteúdo); -> Imprimir algo na página do navegador (A tag document se refere a página do navegador)
+
+* alert(Conteúdo); -> Mostra uma mensagem de aviso no prompt
+
+* document.getElementById(Elemento) -> Pegar um elemento referenciado pelo Id
+
+* inner.HTML = "Conteúdo"; -> Propriedade do Element que define ou retorna um conteúdo HTML do elemento mencionado
+
+* document.createElement(Tipo do Elemento) -> Criar um elemento atráves desse tipo
+
+* varSelecionada.innerText = "Conteúdo" -> Ao mencionar o botão a essa tag, será criado um texto personalizado desse botão
+
+* elementoPai.appendChild(elementoFilho) -> Insere um elemento(filho) em outro elemento(pai) no HTML
+
+* `Texto ${var1} ${var2}`; -> Concatenação com crase
+
+* let lista = ["Conteúdo1", "Conteúdo2"]; -> Criação de um Vetor(Array)
+
+* function nomeFunção(parametros){} -> Criação de uma Função
+
+* toString() -> Converte um Array para String e valores separados por vírgula
+
+* join() -> Permite separar os elementos de uma Array para String com ícones diferentes
+
+* push("Elemento") -> Adiciona um novo elemento no final da Array
+
+* unshift("Elemento") -> Adiciona um novo elemento no início da Array
+
+* pop() -> Remove o último elemento de uma Array
+
+* shift() -> Remove o primeiro elemento de uma Array, e desloca os demais elementos para um índice a menor
+
+* concat() -> Cria um novo Array mesclando Arrays existentes
+
+* setInterval -> Executa de tempos em tempos infinitamente
+
+* setTimeout -> Executa a função depois de um tempo definido
+
+* event.preventDefault() -> Cancela o evento se for cancelável, sem parar a propagação do mesmo.
+
+* querySelector -> Retorna o primeiro elemento descendente do elemento
+
+* map -> Percorre o array da esquerda para a direita invocando uma função de retorno em cada elemento.
+
+* localStorage.setItem("", JSON.stringify()) -> O método localStorage pega as informações dentro de aplicações no navegador e JSON.stringfy é o método que transforma elementos de outros tipos em String
+
+* setAttribute -> Atribui atributos para o elemento referenciado 
