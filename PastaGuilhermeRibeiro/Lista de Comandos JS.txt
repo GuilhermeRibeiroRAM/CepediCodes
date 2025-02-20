@@ -56,3 +56,19 @@
 * localStorage.setItem("", JSON.stringify()) -> O método localStorage pega as informações dentro de aplicações no navegador e JSON.stringfy é o método que transforma elementos de outros tipos em String
 
 * setAttribute -> Atribui atributos para o elemento referenciado 
+
+* reduce((acumulador, numero, indice, original)=>{})
+
+* find((item)=>{}) -> Retorna o primeiro elemento encontrado na lista (Somente o primeiro)
+
+* filter((item)=>{}) -> Consegue filtrar elementos com determinadas características (Filtrar tudo aquilo que encontrar com base na condição)
+
+* (var.includes(Conteúdo)) -> Verifica se na variável selecionada há o conteúdo dentro dos parênteses
+
+* (var.StartsWith(Conteúdo)) -> Verifica se a variável selecionada começa com algum elemento, pode ser Strings, Inteiros, etc
+
+* (var.EndsWith(Conteúdo)) -> Verifica se a variável selecionada termina com algum elemento, pode se Strings, Inteiros, etc
+
+* fetch("URL") ->  A tag fetch irá consumir a API na internet, e garante que pode dar certo ou errado.
+
+* .then((response) => response.json()) -> Caso de sucesso, ou seja, ele irá buscar as requisições, e se der certo, vai cair dentro do then
